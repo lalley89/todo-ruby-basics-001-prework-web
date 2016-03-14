@@ -1,17 +1,16 @@
 #
 def division(num1, num2)
-  num1 / num2
+  return num1 / num2
 end
 
-division(42, 7)
+#division(42, 7)
 
 
 #
-def assign_variable(value)
+def assign_variable(value="Bob")
   return "#{value}"
 end
 
-assign_variable("Bob")
 
 
 #
